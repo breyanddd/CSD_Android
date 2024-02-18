@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single"/> <!--clickable but only once-->
+
+        <item
+            android:id="@+id/nav_newArrivals"
+            android:icon="@drawable/baseline_local_fire_department_24"
+            android:title="Trending"/>
+
+        <item
+            android:id="@+id/nav_components"
+            android:icon="@drawable/baseline_settings_suggest_24"
+            android:title="Components"/>
+
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/baseline_computer_24"
+            android:title="Electronics"/>
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Favorites"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/baseline_people_alt_24"
+            android:title="About Us"/>
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="FAQ"/>
+
+
+</menu>
